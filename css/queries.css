@@ -1,0 +1,91 @@
+/*Big tablet to 1200px (widths smaller that the 1140px row)*/
+@media only screen and (max-width:1200px){
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row{ padding: 0 2%; }
+}
+
+/* Small tablet to big tablet:from 768px to 1023px*/
+@media only screen and (max-width:1023px){
+    body { font-size: 18px};
+    section {padding: 60px 0;}
+    .long-copy {
+        width:80%;
+        margin-left: 10%;
+    }
+    .icon-big {
+        font-size: 250%;
+        margin-bottom: 10px;
+    }
+    h2{
+        font-size: 150%;
+        margin-top: 30px;
+    }
+    h3{
+        font-size: 100%
+       
+    }
+    section {
+        padding: 80px 36px;
+    }
+    .city-feature{ font-size: 70%;}
+    .app-screen{ width: 80%;}
+  .btn-app{margin-left: 60px;}
+  .section.cities {  padding:0%;}
+  .section.cities img {  width: 70%;}
+  .box img {
+      width: 80%;
+      height: 100px;
+      margin-bottom: 15px;
+  }
+  .plan-price{ font-size: 190%;}
+  .plan-price-meal{font-size: 80%;}
+
+  
+  .plan-second ul li p 
+
+ {
+    padding-bottom:9px ;
+    border-bottom: 1px solid #e8e8e8;
+}
+.footer-nav li{
+    display: inline;
+    /* font-size: 60%; */
+    font-size: 11px;
+}
+}
+
+/* Small phone to small tablets: from 481px to 767px*/
+@media only screen and (max-width:767px){
+  body{ font-size: 16px;}
+  section{ padding: 30px 0;}
+
+  .row,
+  .hero-text-box { padding: 0 4%;}
+
+  .col { width: 100%;}
+
+  .row .col.box{
+      float:none!important;
+      width:100%;
+  }
+  .row .col.step-box-img{
+      margin: auto;
+  }
+  .row .col.steps-box{
+      float:none !important;
+      width:100%;
+  }
+  .main-nav{ display: none;}
+  .btn-app{margin: auto;}
+
+  .section-cities img{
+      width: auto;
+}
+.section-cities h3{ font-size: 30px;}
+}
+/* Small phone 480px */
+@media only screen and (max-width:480px){
+}
